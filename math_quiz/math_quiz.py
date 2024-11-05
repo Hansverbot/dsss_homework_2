@@ -1,6 +1,7 @@
 import random
 import keyboard
 
+
 def random_number(min, max):
     """
     This function returns  a random number
@@ -20,6 +21,7 @@ def random_number(min, max):
 
 
 def random_operator():
+
     """
     This function return one of three possible operators randomly
 
@@ -28,6 +30,7 @@ def random_operator():
 
 
 def create_function(n1, n2, o):
+
     """
     It creates a function with the given arguments.
 
