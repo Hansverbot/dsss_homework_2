@@ -1,6 +1,10 @@
 import random
 import keyboard
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4e3b53d7936076da92ae2775aeafd7d57cb40427
 def random_number(min, max):
     """
     This function returns  a random number
@@ -20,10 +24,33 @@ def random_number(min, max):
 
 
 def random_operator():
+<<<<<<< HEAD
+=======
+
+    """
+    This function return one of three possible operators randomly
+
+    """
+>>>>>>> 4e3b53d7936076da92ae2775aeafd7d57cb40427
     return random.choice(['+', '-', '*'])
 
 
 def create_function(n1, n2, o):
+<<<<<<< HEAD
+=======
+
+    """
+    It creates a function with the given arguments.
+
+    Args:
+
+    n1 = first number
+    n2 = second number
+    o = operator
+
+    return: Returns p the function as a string and also gives back the answer in a number a.
+    """
+>>>>>>> 4e3b53d7936076da92ae2775aeafd7d57cb40427
     p = f"{n1} {o} {n2}"
     if o == '+':
         a = n1 + n2
